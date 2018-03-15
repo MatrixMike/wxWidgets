@@ -1,4 +1,6 @@
 # /
+*.o
+/lib/
 /.gdb_history
 /config.cache
 /configarg.cache
