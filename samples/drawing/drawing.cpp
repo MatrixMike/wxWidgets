@@ -2218,7 +2218,8 @@ void MyFrame::OnAbout(wxCommandEvent& WXUNUSED(event))
     msg.Printf( wxT("This is the about dialog of the drawing sample.\n")
                 wxT("This sample tests various primitive drawing functions\n")
                 wxT("(without any attempts to prevent flicker).\n")
-                wxT("Copyright (c) Robert Roebling 1999")
+                wxT("Copyright (c) Robert Roebling 1999\n")
+                wxT("mod by Mike")
               );
 
     wxMessageBox(msg, wxT("About Drawing"), wxOK | wxICON_INFORMATION, this);
